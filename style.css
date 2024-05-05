@@ -1,0 +1,15 @@
+.banner-content{
+    margin-top: 140px;
+}
+.banner-btn{
+    background-color: #8490ff;
+    color: #fff;
+    transition: .5s;
+}
+.banner-btn:hover{
+    background-color: #fff;
+    color: #8490ff;
+}
+.portfolio-img{
+    margin-top: -40px;
+}

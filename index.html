@@ -8,7 +8,361 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    
+    <header>
+      <nav class="navbar navbar-expand-lg bg-white">
+        <div class="container">
+         
+          <a class="navbar-brand" href="index.html">
+            <img src="assets/logo.jpg" style="width: 100px;" alt="">
+          </a>
+      
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav gap-2">
+              <li class="nav-item">
+                <a class="nav-link active fw-bold" aria-current="page" href="#home">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-body-tertiary fw-bold" href="#about">About Us</a>
+              </li>       
+
+              <li class="nav-item">
+                <a class="nav-link text-body-tertiary fw-bold" href="#service">Services</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-body-tertiary fw-bold" href="#blog" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Blog
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-body-tertiary fw-bold" href="#portfolio">Portfolio</a>
+              </li> 
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-body-tertiary fw-bold" href="#page" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Pages
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-body-tertiary fw-bold" href="#contact">Contact Us</a>
+              </li> 
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Banner -->
+      <section class="banner bg-light" id="home"> 
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="banner-content">
+                <h4 class="lead fw-medium pb-2">This is me</h4>
+                <h2 class="fs-1 pb-3">Philip Gilbert</h2>
+                <p class="pb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit totam illum asperiores veniam corporis id! Quam, reprehenderit obcaecati.</p>
+                <a class="btn fw-bold pt-1 banner-btn" href="#contact">Discover Now</a>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="banner-img">
+                <img src="assets/banner.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Banner-End -->
+
+      <!-- About -->
+      <section class="about py-5" id="about">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="about-img">
+                <img class="w-100 img-thumbnail" src="assets/about.jpg" alt="">
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="about-content p-4">
+                <h4 class="lead fw-medium pb-2">About me</h4>
+                <h2 class="fs-2 pb-3">Personal Details</h2>
+                <p class="pb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ipsa quas necessitatibus quae, incidunt iusto? Consequuntur blanditiis officia maxime eveniet et. Fuga iure sunt praesentium incidunt atque, quis repudiandae dolore dicta optio hic nihil explicabo temporibus iste quasi voluptas quos?</p>
+                <a class="btn fw-bold pt-1 banner-btn" href="#contact">View details</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- About-End -->
+
+      <!-- Experience -->
+      <section class="experience bg-primary py-5 text-center" id="page">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3">
+              <h2 class="fw-bold text-white pt-3">100+</h2>
+              <p class="text-white fw-bold">Happy Clients</p>
+            </div>
+            
+            <div class="col-lg-3">
+              <h2 class="fw-bold text-white pt-3">50+</h2>
+              <p class="text-white fw-bold">Health Programs</p>
+            </div>
+            
+            <div class="col-lg-3">
+              <h2 class="fw-bold text-white pt-3">300+</h2>
+              <p class="text-white fw-bold">Project Completed</p>
+            </div>
+            
+            <div class="col-lg-3">
+              <h2 class="fw-bold text-white pt-3">80+</h2>
+              <p class="text-white fw-bold">Health Programs</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Experience-End -->
+
+      <!-- Service -->
+      <section class="service bg-light" id="service">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="section-head text-center py-5">
+                <h1>Start using our app today</h1>
+                <p class="lead">Being active is important to our health, but how much or what kind of activity do you need?</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="service-item text-center shadow p-3 mb-5 rounded">
+                <div class="card-body pb-4">
+                  <div class="card-head">
+                    <h2 class="d-inline-block  bg-secondary-subtle" style="width: 80px; height: 80px; border-radius: 50%; text-align: center; line-height: 80px;">01</h2>
+                </div>
+                  <h5 class="card-title fw-bold py-2">Economy</h5>
+                  <h6 class="pb-3">For the individuals</h6>
+                  <p class="text-muted fs-5 pb-2">Secure Online Transfer</p>
+                  <p class="text-muted fs-5 pb-2">Unlimited Styles for Interface</p>
+                  <p class="text-muted fs-5 pb-2">Reliable Customer Service</p>
+                </div>
+                <div class="service-btn pb-3">
+                  <a href="#" class="btn btn-outline-primary fw-bold px-3">Buy Now</a>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-lg-4">
+              <div class="service-item text-center shadow p-3 mb-5 rounded">
+                <div class="card-body pb-4">
+                  <div class="card-head">
+                    <h2 class="d-inline-block  bg-secondary-subtle" style="width: 80px; height: 80px; border-radius: 50%; text-align: center; line-height: 80px;">02</h2>
+                </div>
+                  <h5 class="card-title fw-bold py-2">Economy</h5>
+                  <h6 class="pb-3">For the individuals</h6>
+                  <p class="text-muted fs-5 pb-2">Secure Online Transfer</p>
+                  <p class="text-muted fs-5 pb-2">Unlimited Styles for Interface</p>
+                  <p class="text-muted fs-5 pb-2">Reliable Customer Service</p>
+                </div>
+                <div class="service-btn pb-3">
+                  <a href="#" class="btn btn-outline-primary fw-bold px-3">Buy Now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="service-item text-center shadow p-3 mb-5 rounded">
+                <div class="card-body pb-4">
+                  <div class="card-head">
+                    <h2 class="d-inline-block  bg-secondary-subtle" style="width: 80px; height: 80px; border-radius: 50%; text-align: center; line-height: 80px;">03</h2>
+                </div>
+                  <h5 class="card-title fw-bold py-2">Economy</h5>
+                  <h6 class="pb-3">For the individuals</h6>
+                  <p class="text-muted fs-5 pb-2">Secure Online Transfer</p>
+                  <p class="text-muted fs-5 pb-2">Unlimited Styles for Interface</p>
+                  <p class="text-muted fs-5 pb-2">Reliable Customer Service</p>
+                </div>
+                <div class="service-btn pb-3">
+                  <a href="#" class="btn btn-outline-primary fw-bold px-3">Buy Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Service-End -->
+
+      <!-- Portfolio -->
+      <section class="portfolio pt-5 pb-3" id="portfolio"> 
+        <div class="container">
+          <div class="row">
+
+            <div class="col-lg-3">
+              <div class="cad shadow p-3 mb-5">
+                  <div class="portfolio-img pb-2">
+                    <img class="" src="assets/face.jpg" style="width: 80px; height: 80px;" alt="">
+                  </div>
+
+                  <div class="text-center">
+                  <div class="card-body">
+                    <h4 class="card-title">Jason Doe</h4>
+                    <h6 class="card-subtitle pb-4">Programmer</h6>
+                    <p class="text-muted pb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <div class="portfolio-btn bg-white">
+                      <a class="btn shadow p-2 mb-3" href="#">website</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+              
+              <div class="col-lg-3">
+              <div class="cad shadow p-3 mb-5">
+                  <div class="portfolio-img pb-2">
+                    <img class="" src="assets/face.jpg" style="width: 80px; height: 80px;" alt="">
+                  </div>
+
+                  <div class="text-center">
+                  <div class="card-body">
+                    <h4 class="card-title">Jason Doe</h4>
+                    <h6 class="card-subtitle pb-4">Programmer</h6>
+                    <p class="text-muted pb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <div class="portfolio-btn bg-white">
+                      <a class="btn shadow p-2 mb-3" href="#">website</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+              
+              <div class="col-lg-3">
+              <div class="cad shadow p-3 mb-5">
+                  <div class="portfolio-img pb-2">
+                    <img class="" src="assets/face.jpg" style="width: 80px; height: 80px;" alt="">
+                  </div>
+
+                  <div class="text-center">
+                  <div class="card-body">
+                    <h4 class="card-title">Jason Doe</h4>
+                    <h6 class="card-subtitle pb-4">Programmer</h6>
+                    <p class="text-muted pb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <div class="portfolio-btn bg-white">
+                      <a class="btn shadow p-2 mb-3" href="#">website</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+              
+              <div class="col-lg-3">
+              <div class="cad shadow p-3 mb-5">
+                  <div class="portfolio-img pb-2">
+                    <img class="" src="assets/face.jpg" style="width: 80px; height: 80px;" alt="">
+                  </div>
+
+                  <div class="text-center">
+                  <div class="card-body">
+                    <h4 class="card-title">Jason Doe</h4>
+                    <h6 class="card-subtitle pb-4">Programmer</h6>
+                    <p class="text-muted pb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <div class="portfolio-btn bg-white">
+                      <a class="btn shadow p-2 mb-3" href="#">website</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+
+          </div>
+        </div>
+      </section>
+      <!-- Portfolio-End -->
+
+      <!-- Contact -->
+      <section class="contact bg-light" id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="section-head text-center py-5">
+                <h4 class="lead">We need to know your opinion</h4>
+                <h1>Write to us and we will contact you</h1>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-7">
+              <div class="form-section bg-white shadow p-3 mb-5">
+                <h3 class="text-center py-4">Send us a message</h3>
+
+                <form>
+                  <div class="mb-3">
+                    <input type="email" class="form-control fw-bold" id="exampleFormControlInput1" placeholder="E-mail adress" required>
+                  </div>
+
+                  <div class="row mb-4">
+                    <div class="col">
+                      <input type="text" class="form-control fw-bold" placeholder="Name" required>
+                    </div>
+                    <div class="col">
+                      <input type="number" class="form-control fw-bold" placeholder="Your Phone" required>
+                    </div>
+                  </div>
+
+                  <div class="mb-3">
+                    <textarea class="form-control fw-bold" placeholder="Message" id="exampleFormControlTextarea1" rows="5" required></textarea>
+                  </div>
+                  
+                  <div class="mb-3 text-center py-4">
+                    <input type="submit" value="Contact Me" class="btn btn-primary fw-bold">
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="col-lg-5">
+              <div class="contact-content mt-5">
+                <h4 class="pb-2">Get in touch</h4>
+                <h6 class="pb-2"><strong>Phone Number: </strong>+8801311341228</h6>
+                <h6 class="pb-2"><strong>Email: </strong>muzarulislam143@gmail.com</h6>
+                <h6 class="pb-2"><strong>Adress: </strong>Uttara Model Town</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Contact-End -->
+    </main>
+
+    <footer class="footer text-center bg-dark pt-4 pb-3">
+      <h5 class="text-white">Copyright &copy; 2024 designed by Muzarul Islam. All Right reserved.</h5>
+    </footer>
+
+
+
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>
