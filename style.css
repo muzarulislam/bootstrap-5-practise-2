@@ -13,3 +13,17 @@
 .portfolio-img{
     margin-top: -40px;
 }
+
+
+/* Responsive */
+@media (max-width: 768px) {
+    .portfolio-img img {
+        border-radius: 50%;
+      }
+}
+
+@media (max-width: 576px) {
+    .portfolio-img img {
+        border-radius: 50%;
+      }
+}
